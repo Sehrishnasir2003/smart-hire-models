@@ -1,0 +1,124 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.8.5,<3.9.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"d0c705c",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "transformer":[
+
+    ],
+    "ner":[
+      "Company Name",
+      "Education Requirement",
+      "Extra Skills",
+      "Industry",
+      "Job Title",
+      "Location",
+      "Nature of Role",
+      "Salary",
+      "Work Experience",
+      "job requirements",
+      "link",
+      "recruiter email",
+      "skills needed"
+    ]
+  },
+  "pipeline":[
+    "transformer",
+    "ner"
+  ],
+  "components":[
+    "transformer",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.4907481899,
+    "ents_p":0.4919354839,
+    "ents_r":0.4895666132,
+    "ents_per_type":{
+      "Job Title":{
+        "p":0.8064516129,
+        "r":0.6578947368,
+        "f":0.7246376812
+      },
+      "Company Name":{
+        "p":0.68,
+        "r":0.6296296296,
+        "f":0.6538461538
+      },
+      "Location":{
+        "p":0.5789473684,
+        "r":0.6470588235,
+        "f":0.6111111111
+      },
+      "Salary":{
+        "p":0.7142857143,
+        "r":0.5555555556,
+        "f":0.625
+      },
+      "Nature of Role":{
+        "p":0.7142857143,
+        "r":0.7407407407,
+        "f":0.7272727273
+      },
+      "job requirements":{
+        "p":0.5405405405,
+        "r":0.5494505495,
+        "f":0.5449591281
+      },
+      "Work Experience":{
+        "p":0.3428571429,
+        "r":0.2727272727,
+        "f":0.3037974684
+      },
+      "Education Requirement":{
+        "p":0.4285714286,
+        "r":0.5217391304,
+        "f":0.4705882353
+      },
+      "skills needed":{
+        "p":0.3613861386,
+        "r":0.3945945946,
+        "f":0.3772609819
+      },
+      "Extra Skills":{
+        "p":0.380952381,
+        "r":0.2352941176,
+        "f":0.2909090909
+      },
+      "Industry":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "link":{
+        "p":0.5,
+        "r":0.5714285714,
+        "f":0.5333333333
+      },
+      "recruiter email":{
+        "p":0.6666666667,
+        "r":1.0,
+        "f":0.8
+      }
+    },
+    "transformer_loss":5856.7132469307,
+    "ner_loss":2504.291015625
+  }
+}
